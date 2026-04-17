@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket1" {
-  bucket = "aluruarumullaa1"
+  bucket = "naseer-s3-bucket-1"
 
   tags = {
-    Name        = "aluruarumullaa1"
+    Name        = "naseer-s3-bucket-1"
     Environment = "dev"
   }
 }
@@ -19,10 +19,10 @@ resource "aws_s3_bucket_versioning" "bucket1_versioning" {
 }
 
 resource "aws_s3_bucket" "bucket2" {
-  bucket = "arumullaaluruu1"
+  bucket = "naseer-s3-bucket-2"
 
   tags = {
-    Name        = "arumullaaluruu1"
+    Name        = "naseer-s3-bucket-2"
     Environment = "dev"
   }
 }
