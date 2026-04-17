@@ -45,7 +45,7 @@ pipeline {
                 GIT_EMAIL = "test@gmail.com"
                 GIT_USER_NAME = "arumullayaswanth"
                 IMAGE_NAME = naseervnb"recommendationservice"
-                REPO_URL = "242201296943.dkr.ecr.us-east-1.amazonaws.com/recommendationservice"
+                REPO_URL = "100458165777.dkr.ecr.us-east-1.amazonaws.com/recommendationservice"
                 YAML_FILE = "recommendationservice.yaml"
             }
             steps {
