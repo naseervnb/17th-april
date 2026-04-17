@@ -44,7 +44,7 @@ pipeline {
                 GIT_REPO_NAME = "17th-april"
                 GIT_EMAIL = "test@gmail.com"
                 GIT_USER_NAME = "arumullayaswanth"
-                IMAGE_NAME = naseervnb"recommendationservice"
+                IMAGE_NAME = "naseervnb"recommendationservice"
                 REPO_URL = "100458165777.dkr.ecr.us-east-1.amazonaws.com/recommendationservice"
                 YAML_FILE = "recommendationservice.yaml"
             }
